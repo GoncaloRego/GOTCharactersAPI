@@ -7,8 +7,52 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "GOTCharactersAPI/1.0.0": {
+        "dependencies": {
+          "Scalar.AspNetCore": "2.17.6",
+          "Scalar.AspNetCore.Microsoft": "2.17.6"
+        },
         "runtime": {
           "GOTCharactersAPI.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.7.5"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Microsoft.OpenApi/2.7.5": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.7.5.0",
+            "fileVersion": "2.7.5.0"
+          }
+        }
+      },
+      "Scalar.AspNetCore/2.17.6": {
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.17.6.0",
+            "fileVersion": "2.17.6.0"
+          }
+        }
+      },
+      "Scalar.AspNetCore.Microsoft/2.17.6": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "10.0.0",
+          "Microsoft.OpenApi": "2.7.5",
+          "Scalar.AspNetCore": "2.17.6"
+        },
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.Microsoft.dll": {
+            "assemblyVersion": "2.17.6.0",
+            "fileVersion": "2.17.6.0"
+          }
         }
       }
     }
@@ -18,6 +62,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0aqIF1t+sA2T62LIeMtXGSiaV7keGQaJnvwwmu+htQdjCaKYARfXAeqp4nHH9y2etpilyZ/tnQzZg4Ilmo/c4Q==",
+      "path": "microsoft.aspnetcore.openapi/10.0.0",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+      "path": "microsoft.openapi/2.7.5",
+      "hashPath": "microsoft.openapi.2.7.5.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/2.17.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qho7zxnjr5620jueYl40XlPNDJdn871MPe352AfYE2zvUkneMjOR5U9Cj+4f1Na7ODSSp5DUL0WM3MTdoKOazA==",
+      "path": "scalar.aspnetcore/2.17.6",
+      "hashPath": "scalar.aspnetcore.2.17.6.nupkg.sha512"
+    },
+    "Scalar.AspNetCore.Microsoft/2.17.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gAkR9MA5IW82TFjLuSlEUsQUXczbMg7lYG3PWFB3a7Ovtb5VAK8QA1Jdw/wHj/4BbIZfO78uPS7cfzXU5GC/5Q==",
+      "path": "scalar.aspnetcore.microsoft/2.17.6",
+      "hashPath": "scalar.aspnetcore.microsoft.2.17.6.nupkg.sha512"
     }
   }
 }

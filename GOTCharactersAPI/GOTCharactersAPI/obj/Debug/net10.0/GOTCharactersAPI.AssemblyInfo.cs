@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GOTCharactersAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431c19da1cf5e1ef434b1c03e8fcf0c93ad53bd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e929631b0acd811654d191b3f3134832c2ef8bc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("GOTCharactersAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GOTCharactersAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
